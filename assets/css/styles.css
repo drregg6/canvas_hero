@@ -5,10 +5,43 @@
 }
 
 body {
+    text-align: center;
     margin: 0;
     padding: 0;
+    
+    position: relative;
 }
 
 canvas {
     background: #262626;
+}
+
+div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    
+    font-size: 36px;
+    color: #f3f3f3;
+    text-shadow: 1px 1px 10px #343434,
+        -1px -1px 10px #343434;
+}
+
+div h1 {
+    margin: 0 auto;
+    padding: 0;
+}
+
+hr {
+    width: 50%;
+    margin: 2.5% auto;
+    padding: 0;
+}
+
+p {
+    margin: 0 auto;
+    padding: 0;
+    
+    font-size: 28px;
 }
