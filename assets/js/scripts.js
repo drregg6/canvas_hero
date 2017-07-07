@@ -19,6 +19,7 @@ mouseObj = {
 
 body = document.querySelector('body');
 div = document.createElement('div');
+div.classList.add('hero');
 divHtml = '<h1>Dave Regg</h1><hr>';
 divHtml += '<p>A Computer Programmer</p>';
 div.innerHTML = divHtml;
