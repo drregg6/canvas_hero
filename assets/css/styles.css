@@ -98,8 +98,8 @@ canvas {
     transform: translateY(-50%);
     
     color: #f3f3f3;
-    text-shadow: 1px 1px 10px #343434,
-        -1px -1px 10px #343434;
+    text-shadow: 1px 1px 25px #101010,
+        -1px -1px 25px #101010;
 }
 
 .hero h1 {
@@ -166,8 +166,8 @@ ul li:first-child {
 
 ul li a {
     color: #f3f3f3;
-    text-shadow: 1px 1px 10px #343434,
-        -1px -1px 10px #343434;
+    text-shadow: 1px 1px 10px #101010,
+        -1px -1px 10px #101010;
 }
 ul li {
     border-bottom-color: #f3f3f3;

@@ -10,7 +10,7 @@ hero = document.querySelector('.hero');
 
 colorsArr = ['#f2385a', '#f5a503', '#e9f1df', '#4ad9d9', '#36b1bf'];
 circlesArr = [];
-circles = 400;
+circles = 750;
 minRadius = 4;
 maxRadius = 35;
 mouseObj = {
@@ -38,8 +38,16 @@ window.addEventListener('resize', function() {
 });
 
 window.addEventListener('mousemove', function(ev) {
+    /*
+    does not work on scroll
     mouseObj.x = ev.x;
-    mouseObj.y = ev.y;
+    */
+    
+    // works on scroll
+    mouseObj.x = ev.pageX;
+    mouseObj.y = ev.pageY;
+    
+    console.log(ev);
 });
 
 
