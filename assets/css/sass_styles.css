@@ -1,0 +1,96 @@
+body, html, div,
+blockquote, img, label, p,
+h1, h2, h3, h4, h5, h6,
+pre, ul, ol, li, dl, dt, dd,
+form, a, fieldset, input, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none; }
+
+body {
+  line-height: 1;
+  font-size: 88%;
+  /* Author states: modify based on what you want */ }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  padding: .6em 0;
+  margin: 0 15px; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.floatLeft {
+  float: left;
+  padding: .5em .5em .5em 0; }
+
+.floatRight {
+  float: right;
+  padding: .5em 0 .5em .5em; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  font: normal 16px/125% "Oxygen", Arial, Helvetica;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden; }
+
+canvas {
+  background: #262626; }
+
+.hero {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  color: #f3f3f3;
+  text-shadow: 1px 1px 10px #343434, -1px -1px 10px #343434; }
+  .hero h1 {
+    font-size: 64px;
+    margin: 0 auto;
+    padding: 0; }
+  .hero p {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 28px; }
+
+hr {
+  width: 50%;
+  margin: 2.5% auto;
+  padding: 0; }
+
+/*
+
+Nav
+
+*/
+ul {
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  ul li {
+    display: inline-block;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-size: 18px; }
+    ul li li:last-child {
+      margin-right: 2.5%; }
+    ul li li:first-child {
+      margin-left: 0; }
+
+/*# sourceMappingURL=styles.css.map */
