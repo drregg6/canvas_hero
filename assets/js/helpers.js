@@ -25,7 +25,7 @@ function animate() {
     requestAnimationFrame(animate);
     // clear the canvas each time animation is run
     cxt.clearRect(0, 0, window.innerWidth, window.innerHeight);
-    
+
     // move each circle in the arr
     circlesArr.forEach(function(circle) {
         circle.move();
